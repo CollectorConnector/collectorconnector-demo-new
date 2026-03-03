@@ -1,0 +1,27 @@
+
+import './globals.css';
+import Link from 'next/link';
+
+export const metadata = {
+  title: 'CollectorConnector',
+  description: 'A premium home for collectors'
+};
+
+export default function RootLayout({ children }){
+  return (
+    <html lang="en">
+      <body>
+        <nav className="nav">
+          <Link href="/" className="brand">CollectorConnector</Link>
+          <span className="badge">Legacy</span>
+          <div style={{flex:1}} />
+          <Link href="/collections">Collections</Link>
+          <Link href="/items">Items</Link>
+          <Link href="/profile">Profile</Link>
+          <Link href="/login">Login</Link>
+        </nav>
+        <div className="container">{children}</div>
+      </body>
+    </html>
+  );
+}
