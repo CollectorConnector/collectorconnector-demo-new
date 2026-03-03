@@ -1,0 +1,4 @@
+
+html, body { margin: 0; padding: 0; background: #000; color: #fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+a { color: #ffd666; text-decoration: none; }
+a:hover { text-decoration: underline; }
