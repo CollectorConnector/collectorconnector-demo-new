@@ -1,1 +1,8 @@
-body { margin: 0; padding: 0; background: #000; color: #fff; font-family: sans-serif; }
+export default function CollectionsPage() {
+  return (
+    <main style={{ padding: 40, minHeight: "100vh" }}>
+      <h1>COLLECTIONS</h1>
+      <p>Your collections go here.</p>
+    </main>
+  );
+}
