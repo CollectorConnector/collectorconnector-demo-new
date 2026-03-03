@@ -1,8 +1,14 @@
-export default function CreateProfilePage() {
+import "./globals.css";
+
+export const metadata = {
+  title: "CollectorConnector",
+  description: "The home for collectors"
+};
+
+export default function RootLayout({ children }) {
   return (
-    <main style={{ padding: 40, minHeight: "100vh" }}>
-      <h1>CREATE PROFILE</h1>
-      <p>This is the create profile page.</p>
-    </main>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }
